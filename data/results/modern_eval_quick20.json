@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-07-10T05:17:23.304308+00:00",
+  "sample_size": 20,
+  "providers": [
+    {
+      "provider": "openai",
+      "model": "gpt-5.2",
+      "turn_accuracy": 0.6790123456790124,
+      "conversation_accuracy": 0.5,
+      "turn_count": 81,
+      "turn_accuracy_by_index": {
+        "0": 0.6,
+        "1": 0.85,
+        "2": 0.625,
+        "3": 0.6923076923076923,
+        "4": 0.625,
+        "5": 0.6666666666666666,
+        "6": 0.0
+      },
+      "error_buckets": {
+        "other": 22,
+        "arithmetic / percentage": 4
+      }
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-opus-4-6",
+      "turn_accuracy": 0.0,
+      "conversation_accuracy": 0.0,
+      "turn_count": 81,
+      "turn_accuracy_by_index": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0
+      },
+      "error_buckets": {
+        "api/timeout": 81
+      }
+    }
+  ]
+}

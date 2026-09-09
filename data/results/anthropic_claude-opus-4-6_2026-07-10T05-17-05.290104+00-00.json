@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-10T05:17:05.290121+00:00",
+    "split": "dev",
+    "provider": "anthropic",
+    "model": "claude-opus-4-6",
+    "prompt_version": "v3",
+    "conversation_count": 75,
+    "turn_count": 265
+  },
+  "summary": {
+    "turn_accuracy": 0.6113207547169811,
+    "conversation_accuracy": 0.52
+  },
+  "failures": [
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 0,
+      "question": "how much did the gallons hedged in 2018 represent in relation to the ones hedged in 2017?",
+      "expected": 4.0,
+      "predicted": "The gallons hedged in 2018 (3,000,000) represented 25% (or 0.25) of the gallons hedged in 2017 (12,000,000). In other words, the 2018 hedged volume was one-quarter of the 2017 hedged volume."
+    },
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 2,
+      "question": "what was it in 2015?",
+      "expected": 2.7,
+      "predicted": "The aggregate fair value of the outstanding fuel hedges in 2015 was $37.8 million (recorded as current liabilities)."
+    },
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 3,
+      "question": "how much, then, did the 2016 fair value represent in relation to this 2015 one?",
+      "expected": 14.0,
+      "predicted": "The 2016 aggregate fair value of outstanding fuel hedges ($2.7 million) represented approximately 0.07143 (or about 7.14%) of the 2015 fair value ($37.8 million)."
+    },
+    {
+      "record_id": "Single_CDNS/2018/page_31.pdf-1",
+      "turn_index": 0,
+      "question": "what is the change in price of the s&p 500 from 2015 to 2016?",
+      "expected": 18.77,
+      "predicted": "The change in the S&P 500 price from 2015 (1/3/2015) to 2016 (1/2/2016) was -0.74, declining from 110.28 to 109.54."
+    },
+    {
+      "record_id": "Single_CDNS/2018/page_31.pdf-1",
+      "turn_index": 2,
+      "question": "what is the product of the change by the quotient?",
+      "expected": 18770.0,
+      "predicted": "The product of the change in price of the S&P 500 from 2015 to 2016 (-0.74) and the quotient (1000.0) is -740.0."
+    },
+    {
+      "record_id": "Double_PM/2017/page_38.pdf",
+      "turn_index": 5,
+      "question": "what, then, can be concluded to have been those 2015 earnings, in millions?",
+      "expected": 6955.22388,
+      "predicted": "The 2015 net earnings (as referred to in the conversation context) were $6,932 million. This is derived by dividing the $932 million decline by the percentage (0.13444893248701673), which gives $6,932 million. This is consistent with the 2017 net earnings of $6,000 million plus the $932 million decrease."
+    },
+    {
+      "record_id": "Double_PM/2015/page_127.pdf",
+      "turn_index": 0,
+      "question": "what were the total accumulated other comprehensive losses in 2015?",
+      "expected": 9402.0,
+      "predicted": "The total accumulated other comprehensive losses in 2015 were -$9,402 million."
+    },
+    {
+      "record_id": "Double_PM/2015/page_127.pdf",
+      "turn_index": 1,
+      "question": "and what were they in 2014?",
+      "expected": 6826.0,
+      "predicted": "The total accumulated other comprehensive losses in 2014 were -6826.0 million."
+    },
+    {
+      "record_id": "Double_PM/2015/page_127.pdf",
+      "turn_index": 2,
+      "question": "by what amount, then, did they increase over the year?",
+      "expected": 2576.0,
+      "predicted": "The total accumulated other comprehensive losses increased by $2,576.0 million (becoming more negative, from -6,826.0 to -9,402.0) over the year from 2014 to 2015."
+    },
+    {
+      "record_id": "Double_PM/2015/page_127.pdf",
+      "turn_index": 4,
+      "question": "and over the precedent year, from 2013 to 2014, what was that increase in those losses?",
+      "expected": 2636.0,
+      "predicted": "The increase in total accumulated other comprehensive losses from 2013 to 2014 was -2636.0 (million), meaning losses increased by $2,636 million over that period."
+    },
+    {
+      "record_id": "Single_UNP/2011/page_76.pdf-1",
+      "turn_index": 0,
+      "question": "what was the total expense for repairs and maintenance incurred in 2011?",
+      "expected": 2200.0,
+      "predicted": "The total expense for repairs and maintenance incurred in 2011 was $2.2 billion."
+    },
+    {
+      "record_id": "Single_UNP/2011/page_76.pdf-1",
+      "turn_index": 2,
+      "question": "assuming these accrued casualty costs were completely repaired in the following year, what then becomes that 2011 total expense?",
+      "expected": 2525.0,
+      "predicted": "If the 2010 accrued casualty costs of $325.0 million were completely repaired in 2011, the total expense for repairs and maintenance in 2011 would become $2.525 billion ($2.2 billion + $0.325 billion)."
+    },
+    {
+      "record_id": "Double_STT/2008/page_83.pdf",
+      "turn_index": 0,
+      "question": "in the year of 2008, what was the variance of the foreign exchange products in the first section?",
+      "expected": 4.4,
+      "predicted": "In the year 2008, the variance (range) of foreign exchange products in the first section was 1.7, calculated as the difference between the maximum of 4.7 and the minimum of 3.0."
+    },
+    {
+      "record_id": "Double_STT/2008/page_83.pdf",
+      "turn_index": 2,
+      "question": "what was, then, the combined total variance for both sections?",
+      "expected": 7.7,
+      "predicted": "The combined total variance for both sections of foreign exchange products in 2008 was 4.7."
+    },
+    {
+      "record_id": "Double_STT/2008/page_83.pdf",
+      "turn_index": 3,
+      "question": "and what was the average variance between them?",
+      "expected": 3.85,
+      "predicted": "The average variance between the two sections was 2.35."
+    },
+    {
+      "record_id": "Single_BLK/2014/page_119.pdf-4",
+      "turn_index": 4,
+      "question": "and the total portion due in the next 36 months?",
+      "expected": 0.29293,
+      "predicted": "The total portion of long-term borrowings due in the next 36 months (from December 31, 2014 through December 31, 2017) is $1,450.0 million, consisting of the 1.375% notes due 2015 ($750.0 million) and the 6.25% notes due 2017 ($700.0 million)."
+    },
+    {
+      "record_id": "Single_BLL/2007/page_47.pdf-1",
+      "turn_index": 2,
+      "question": "how many years, then, are comprehended in this period?",
+      "expected": 4.0,
+      "predicted": "The period from 2008 through 2012 comprehends 5 years."
+    },
+    {
+      "record_id": "Single_BLL/2007/page_47.pdf-1",
+      "turn_index": 3,
+      "question": "and what is the total of payments to participants in the unfunded german plans for each of those years?",
+      "expected": 26.0,
+      "predicted": "The total of payments to participants in the unfunded German plans for each of the 5 years (2008 through 2012) is $130 million (approximately $26 million per year \u00d7 5 years)."
+    },
+    {
+      "record_id": "Single_BLL/2007/page_47.pdf-1",
+      "turn_index": 4,
+      "question": "what is, then, the total amount of those payments in all of the years combined, in million?",
+      "expected": 104.0,
+      "predicted": "The total amount of payments to participants in the unfunded German plans across all years (2008\u20132017) is $266 million. This is the sum of $130 million for 2008\u20132012 (approximately $26 million per year for 5 years) and $136 million for 2013\u20132017."
+    },
+    {
+      "record_id": "Double_BLK/2014/page_119.pdf",
+      "turn_index": 1,
+      "question": "so what percentage higher is fair value than carrying value?",
+      "expected": 0.07513,
+      "predicted": "Fair value is approximately 7.51% higher than carrying value."
+    },
+    {
+      "record_id": "Single_DISH/2013/page_138.pdf-3",
+      "turn_index": 0,
+      "question": "what was the average revenue from discontinued operations in 2013?",
+      "expected": 503.0,
+      "predicted": "The average revenue from discontinued operations across 2013, 2012, and 2011 was $854 million. This was calculated by summing the revenue for all three years ($503 million + $1,085 million + $974 million = $2,562 million) and dividing by 3."
+    },
+    {
+      "record_id": "Single_DISH/2013/page_138.pdf-3",
+      "turn_index": 2,
+      "question": "what is the sum of those 2 years?",
+      "expected": 1477.0,
+      "predicted": "The sum of the average revenue from discontinued operations (854.0 million) and the 2011 revenue from discontinued operations (974.0 million) is 1,828.0 million."
+    },
+    {
+      "record_id": "Single_DISH/2013/page_138.pdf-3",
+      "turn_index": 3,
+      "question": "what is the sum divided by 2?",
+      "expected": 738.5,
+      "predicted": "The sum of the 2013 and 2011 discontinued operations revenue ($1,828 million) divided by 2 is $914 million."
+    },
+    {
+      "record_id": "Single_IPG/2008/page_62.pdf-1",
+      "turn_index": 0,
+      "question": "what was the value of liability in 2007?",
+      "expected": 1.2,
+      "predicted": "The total value of liability at December 31, 2007 was $29.6 million."
+    },
+    {
+      "record_id": "Single_IPG/2008/page_62.pdf-1",
+      "turn_index": 1,
+      "question": "what was it in 2003?",
+      "expected": 5.7,
+      "predicted": "The liability for the 2003 program at December 31, 2007 was 9.0 million."
+    }
+  ]
+}

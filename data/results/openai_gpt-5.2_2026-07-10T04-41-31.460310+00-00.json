@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-10T04:41:31.460347+00:00",
+    "split": "dev",
+    "provider": "openai",
+    "model": "gpt-5.2",
+    "prompt_version": "v3",
+    "conversation_count": 75,
+    "turn_count": 265
+  },
+  "summary": {
+    "turn_accuracy": 0.7547169811320755,
+    "conversation_accuracy": 0.6266666666666667
+  },
+  "failures": [
+    {
+      "record_id": "Double_HII/2017/page_104.pdf",
+      "turn_index": 0,
+      "question": "what was the change in the unamortized debt issuance costs associated with the senior notes between 2016 and 2017?",
+      "expected": -4.0,
+      "predicted": "Unamortized debt issuance costs (shown as a reduction to long-term debt) changed from -$27.0 million at December 31, 2016 to -$26.0 million at December 31, 2017, an increase of $1.0 million (i.e., became $1.0 million less negative)."
+    },
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 0,
+      "question": "how much did the gallons hedged in 2018 represent in relation to the ones hedged in 2017?",
+      "expected": 4.0,
+      "predicted": "Gallons hedged in 2018 were 0.25 of the gallons hedged in 2017 (i.e., 25%)."
+    },
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 2,
+      "question": "what was it in 2015?",
+      "expected": 2.7,
+      "predicted": "The document states the aggregate fair value of outstanding fuel hedges as of December 31, 2015 was $37.8 million (a current liability)."
+    },
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 3,
+      "question": "how much, then, did the 2016 fair value represent in relation to this 2015 one?",
+      "expected": 14.0,
+      "predicted": "The 2016 aggregate fair value ($2.7 million) represented about 0.0714 of the 2015 amount ($37.8 million), i.e., ~7.14%."
+    },
+    {
+      "record_id": "Single_CDNS/2018/page_31.pdf-1",
+      "turn_index": 0,
+      "question": "what is the change in price of the s&p 500 from 2015 to 2016?",
+      "expected": 18.77,
+      "predicted": "The S&P 500 decreased from 110.28 in 2015 (1/3/2015) to 109.54 in 2016 (1/2/2016), a change of -0.74."
+    },
+    {
+      "record_id": "Single_CDNS/2018/page_31.pdf-1",
+      "turn_index": 2,
+      "question": "what is the product of the change by the quotient?",
+      "expected": 18770.0,
+      "predicted": "The change in the S&P 500 from 2015 (110.28) to 2016 (109.54) is -0.74, and the quotient 100000 \u00f7 100 is 1000. Multiplying them gives -740."
+    },
+    {
+      "record_id": "Double_PM/2017/page_38.pdf",
+      "turn_index": 3,
+      "question": "and in the previous year, what was the decline in the net earnings, also in millions?",
+      "expected": 932.0,
+      "predicted": "The document excerpt provided does not include a table line for \u201cnet earnings attributable to PMI\u201d by year, so the decline in net earnings (in $ millions) cannot be obtained from the table. The narrative mentions that net earnings attributable to PMI \u201cdecreased by $932 million,\u201d but the year referenced is not explicitly labeled as 2017 vs. 2016 in the table shown."
+    },
+    {
+      "record_id": "Double_PM/2017/page_38.pdf",
+      "turn_index": 4,
+      "question": "what is that as a percentage of the 2015 net earnings?",
+      "expected": 0.134,
+      "predicted": "Cannot be determined from the provided document. The excerpt does not report 2015 net earnings (in $ millions), so the $932 million decline cannot be expressed as a percentage of 2015 net earnings using only this document."
+    },
+    {
+      "record_id": "Double_PM/2017/page_38.pdf",
+      "turn_index": 5,
+      "question": "what, then, can be concluded to have been those 2015 earnings, in millions?",
+      "expected": 6955.22388,
+      "predicted": "Cannot be determined from the provided document excerpt. It does not provide 2015 net earnings attributable to PMI (or 2014 vs. 2015 figures) and also does not give enough information to back-solve 2015 earnings from the $932 million (13.4%) decrease statement.\n\nTo infer 2015 earnings, we would need either (a) the actual 2015 net earnings value, or (b) a clearly year-anchored statement like \u201c2016 net earnings were $X and decreased by $932 million (13.4%) vs. 2015,\u201d but $X is not provided here."
+    },
+    {
+      "record_id": "Double_PM/2017/page_38.pdf",
+      "turn_index": 6,
+      "question": "and what is that in billions?",
+      "expected": 6.95522,
+      "predicted": "The change in operating income of $688 million is $0.688 billion."
+    },
+    {
+      "record_id": "Double_PM/2015/page_127.pdf",
+      "turn_index": 0,
+      "question": "what were the total accumulated other comprehensive losses in 2015?",
+      "expected": 9402.0,
+      "predicted": "Total accumulated other comprehensive losses in 2015 were -9,402."
+    },
+    {
+      "record_id": "Double_PM/2015/page_127.pdf",
+      "turn_index": 1,
+      "question": "and what were they in 2014?",
+      "expected": 6826.0,
+      "predicted": "Total accumulated other comprehensive losses in 2014 were -6,826.0."
+    },
+    {
+      "record_id": "Double_PM/2015/page_127.pdf",
+      "turn_index": 2,
+      "question": "by what amount, then, did they increase over the year?",
+      "expected": 2576.0,
+      "predicted": "Total accumulated other comprehensive losses changed by -2,576.0 from 2014 to 2015 (i.e., they became $2,576.0 million more negative)."
+    },
+    {
+      "record_id": "Double_PM/2015/page_127.pdf",
+      "turn_index": 4,
+      "question": "and over the precedent year, from 2013 to 2014, what was that increase in those losses?",
+      "expected": 2636.0,
+      "predicted": "From 2013 to 2014, total accumulated other comprehensive losses increased by 2,636 (i.e., moved from -4,190.0 in 2013 to -6,826.0 in 2014)."
+    },
+    {
+      "record_id": "Single_UNP/2011/page_76.pdf-1",
+      "turn_index": 0,
+      "question": "what was the total expense for repairs and maintenance incurred in 2011?",
+      "expected": 2200.0,
+      "predicted": "The total expense for repairs and maintenance incurred in 2011 was $2.2 billion."
+    },
+    {
+      "record_id": "Single_UNP/2011/page_76.pdf-1",
+      "turn_index": 2,
+      "question": "assuming these accrued casualty costs were completely repaired in the following year, what then becomes that 2011 total expense?",
+      "expected": 2525.0,
+      "predicted": "If the entire 2010 accrued casualty costs balance ($325.0 million) were fully repaired in 2011, then you would add that amount to the 2011 repairs and maintenance expense of $2.2 billion, giving an adjusted 2011 total expense of about $2.525 billion."
+    },
+    {
+      "record_id": "Double_STT/2008/page_83.pdf",
+      "turn_index": 0,
+      "question": "in the year of 2008, what was the variance of the foreign exchange products in the first section?",
+      "expected": 4.4,
+      "predicted": "For 2008, the VaR (variance) for foreign exchange products in the first section (2008 annual average (1)) was **1.8**."
+    },
+    {
+      "record_id": "Double_STT/2008/page_83.pdf",
+      "turn_index": 1,
+      "question": "and what was it in the second section?",
+      "expected": 3.3,
+      "predicted": "In the second section (2008 annual average (2)), the VaR for foreign exchange products was 1.8."
+    },
+    {
+      "record_id": "Double_STT/2008/page_83.pdf",
+      "turn_index": 2,
+      "question": "what was, then, the combined total variance for both sections?",
+      "expected": 7.7,
+      "predicted": "The combined total variance (annual average) for foreign exchange products across both sections in 2008 is 3.6 (1.8 + 1.8)."
+    },
+    {
+      "record_id": "Double_STT/2008/page_83.pdf",
+      "turn_index": 3,
+      "question": "and what was the average variance between them?",
+      "expected": 3.85,
+      "predicted": "The average variance between the two sections is 1.8."
+    },
+    {
+      "record_id": "Single_BLK/2014/page_119.pdf-4",
+      "turn_index": 4,
+      "question": "and the total portion due in the next 36 months?",
+      "expected": 0.29293,
+      "predicted": "The total maturity amount due in the next 36 months is 1,450.0 million."
+    },
+    {
+      "record_id": "Single_BLL/2007/page_47.pdf-1",
+      "turn_index": 2,
+      "question": "how many years, then, are comprehended in this period?",
+      "expected": 4.0,
+      "predicted": "The period from 2008 through 2012 (inclusive) comprises 5 years."
+    },
+    {
+      "record_id": "Single_BLL/2007/page_47.pdf-1",
+      "turn_index": 3,
+      "question": "and what is the total of payments to participants in the unfunded german plans for each of those years?",
+      "expected": 26.0,
+      "predicted": "The total payments to participants in the unfunded German plans across 2008\u20132012 (5 years at approximately $26 million per year) are approximately **$130 million**."
+    },
+    {
+      "record_id": "Single_BLL/2007/page_47.pdf-1",
+      "turn_index": 4,
+      "question": "what is, then, the total amount of those payments in all of the years combined, in million?",
+      "expected": 104.0,
+      "predicted": "The total payments to participants in the unfunded German plans for all years combined (2008\u20132012 plus 2013\u20132017) are 266.0 million."
+    },
+    {
+      "record_id": "Double_AMAT/2013/page_18.pdf",
+      "turn_index": 0,
+      "question": "what was the change in the rd&e spendings from 2013 to 2014?",
+      "expected": 0.1,
+      "predicted": "The document only provides R&D&E spending for fiscal 2013 ($1.3 billion), 2012 ($1.2 billion), and 2011 ($1.1 billion). It does not include a 2014 R&D&E spending figure, so the change from 2013 to 2014 cannot be determined from this document."
+    }
+  ]
+}

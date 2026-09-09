@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-10T05:17:23.303505+00:00",
+    "split": "dev",
+    "provider": "anthropic",
+    "model": "claude-opus-4-6",
+    "prompt_version": "v3",
+    "conversation_count": 20,
+    "turn_count": 81
+  },
+  "summary": {
+    "turn_accuracy": 0.0,
+    "conversation_accuracy": 0.0
+  },
+  "failures": [
+    {
+      "record_id": "Single_MRO/2007/page_134.pdf-1",
+      "turn_index": 0,
+      "question": "what was the weighted average exercise price per share in 2007?",
+      "expected": 60.94,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_MRO/2007/page_134.pdf-1",
+      "turn_index": 1,
+      "question": "and what was it in 2005?",
+      "expected": 25.14,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_MRO/2007/page_134.pdf-1",
+      "turn_index": 2,
+      "question": "what was, then, the change over the years?",
+      "expected": 35.8,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_MRO/2007/page_134.pdf-1",
+      "turn_index": 3,
+      "question": "what was the weighted average exercise price per share in 2005?",
+      "expected": 25.14,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_MRO/2007/page_134.pdf-1",
+      "turn_index": 4,
+      "question": "and how much does that change represent in relation to this 2005 weighted average exercise price?",
+      "expected": 1.42403,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_HII/2017/page_104.pdf",
+      "turn_index": 0,
+      "question": "what was the change in the unamortized debt issuance costs associated with the senior notes between 2016 and 2017?",
+      "expected": -4.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_HII/2017/page_104.pdf",
+      "turn_index": 1,
+      "question": "so what was the percentage change during this time?",
+      "expected": -0.21053,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_HII/2017/page_104.pdf",
+      "turn_index": 2,
+      "question": "what was the change associated with credit facilities during that time?",
+      "expected": 3.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_HII/2017/page_104.pdf",
+      "turn_index": 3,
+      "question": "so what was the percentage change?",
+      "expected": 0.375,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_IPG/2009/page_85.pdf-3",
+      "turn_index": 0,
+      "question": "what is the ratio of discretionary company contributions to total expensed amounts for savings plans in 2009?",
+      "expected": 0.10826,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_IPG/2009/page_85.pdf-3",
+      "turn_index": 1,
+      "question": "what is that times 100?",
+      "expected": 10.82621,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2008/page_77.pdf-2",
+      "turn_index": 0,
+      "question": "what was the equipment rents payable in 2008?",
+      "expected": 93.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2008/page_77.pdf-2",
+      "turn_index": 1,
+      "question": "and in 2007?",
+      "expected": 103.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2008/page_77.pdf-2",
+      "turn_index": 2,
+      "question": "so what was the difference between the two years?",
+      "expected": -10.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2008/page_77.pdf-2",
+      "turn_index": 3,
+      "question": "and the value for 2007 again?",
+      "expected": 103.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2008/page_77.pdf-2",
+      "turn_index": 4,
+      "question": "so what was the percentage change during this time?",
+      "expected": -0.09709,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 0,
+      "question": "how much did the gallons hedged in 2018 represent in relation to the ones hedged in 2017?",
+      "expected": 4.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 1,
+      "question": "and in the previous year of this period, what was the aggregate fair value of the outstanding fuel hedges?",
+      "expected": 37.8,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 2,
+      "question": "what was it in 2015?",
+      "expected": 2.7,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 3,
+      "question": "how much, then, did the 2016 fair value represent in relation to this 2015 one?",
+      "expected": 14.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_MRO/2015/page_18.pdf",
+      "turn_index": 0,
+      "question": "what was the total african and us net undeveloped acres expiring in 2016?",
+      "expected": 257.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_MRO/2015/page_18.pdf",
+      "turn_index": 1,
+      "question": "what percentage of undeveloped acres were in the us in 2018?",
+      "expected": 0.12574,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2014/page_35.pdf-3",
+      "turn_index": 0,
+      "question": "what was the cash provided by operating activities in 2013?",
+      "expected": 6823.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2014/page_35.pdf-3",
+      "turn_index": 1,
+      "question": "and in 2012?",
+      "expected": 6161.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2014/page_35.pdf-3",
+      "turn_index": 2,
+      "question": "so what was the difference in this value between the years?",
+      "expected": 662.0,
+      "predicted": "ERROR"
+    }
+  ]
+}

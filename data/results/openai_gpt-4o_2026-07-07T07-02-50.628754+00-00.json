@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-07T07:02:50.628754+00:00",
+    "split": "dev",
+    "provider": "openai",
+    "model": "gpt-4o",
+    "prompt_version": "v3",
+    "conversation_count": 2,
+    "turn_count": 9
+  },
+  "summary": {
+    "turn_accuracy": 1.0,
+    "conversation_accuracy": 1.0,
+    "turn_accuracy_by_position": {
+      "turn_1": 1.0,
+      "turn_2": 1.0,
+      "turn_3": 1.0,
+      "turn_4_plus": 1.0
+    },
+    "conversation_type_accuracy": {
+      "type_i": 1.0,
+      "type_ii": 1.0
+    }
+  },
+  "error_buckets": {
+    "correct": 9
+  },
+  "failures": []
+}

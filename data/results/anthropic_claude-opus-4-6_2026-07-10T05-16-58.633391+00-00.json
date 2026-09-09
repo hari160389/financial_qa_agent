@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-10T05:16:58.633410+00:00",
+    "split": "dev",
+    "provider": "anthropic",
+    "model": "claude-opus-4-6",
+    "prompt_version": "v3",
+    "conversation_count": 20,
+    "turn_count": 81
+  },
+  "summary": {
+    "turn_accuracy": 0.2345679012345679,
+    "conversation_accuracy": 0.25
+  },
+  "failures": [
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 0,
+      "question": "how much did the gallons hedged in 2018 represent in relation to the ones hedged in 2017?",
+      "expected": 4.0,
+      "predicted": "The gallons hedged in 2018 (3,000,000) represented 25% (or 0.25) of the gallons hedged in 2017 (12,000,000). In other words, the 2018 hedged volume was one-quarter of the 2017 hedged volume."
+    },
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 2,
+      "question": "what was it in 2015?",
+      "expected": 2.7,
+      "predicted": "The aggregate fair value of the outstanding fuel hedges as of December 31, 2015 was $37.8 million (recorded as current liabilities)."
+    },
+    {
+      "record_id": "Double_RSG/2016/page_144.pdf",
+      "turn_index": 3,
+      "question": "how much, then, did the 2016 fair value represent in relation to this 2015 one?",
+      "expected": 14.0,
+      "predicted": "The 2016 aggregate fair value of outstanding fuel hedges ($2.7 million) represented approximately 0.0714 (or about 7.14%) of the 2015 fair value ($37.8 million)."
+    },
+    {
+      "record_id": "Single_UNP/2014/page_35.pdf-3",
+      "turn_index": 0,
+      "question": "what was the cash provided by operating activities in 2013?",
+      "expected": 6823.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2014/page_35.pdf-3",
+      "turn_index": 1,
+      "question": "and in 2012?",
+      "expected": 6161.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2014/page_35.pdf-3",
+      "turn_index": 2,
+      "question": "so what was the difference in this value between the years?",
+      "expected": 662.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2014/page_35.pdf-3",
+      "turn_index": 3,
+      "question": "and the value for 2012 again?",
+      "expected": 6161.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_UNP/2014/page_35.pdf-3",
+      "turn_index": 4,
+      "question": "so what was the percentage change during this time?",
+      "expected": 0.10745,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_DVN/2007/page_58.pdf-3",
+      "turn_index": 0,
+      "question": "what is the amount of oil and gas mmboe from canada divided by the total?",
+      "expected": 0.24691,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_DVN/2007/page_58.pdf-3",
+      "turn_index": 1,
+      "question": "what is that times 100?",
+      "expected": 24.69136,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_AON/2009/page_46.pdf-3",
+      "turn_index": 0,
+      "question": "what was the total of risk and insurance brokerage services segment revenue in 2009?",
+      "expected": 6305.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_AON/2009/page_46.pdf-3",
+      "turn_index": 1,
+      "question": "and what was that in 2008?",
+      "expected": 6197.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_AON/2009/page_46.pdf-3",
+      "turn_index": 2,
+      "question": "what was, then, the change over the year?",
+      "expected": 108.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_AON/2009/page_46.pdf-3",
+      "turn_index": 3,
+      "question": "and how much does this change represent in relation to the 2008 total, in percentage?",
+      "expected": 0.01743,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_CDNS/2018/page_31.pdf-1",
+      "turn_index": 0,
+      "question": "what is the change in price of the s&p 500 from 2015 to 2016?",
+      "expected": 18.77,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_CDNS/2018/page_31.pdf-1",
+      "turn_index": 1,
+      "question": "what is 100000 divided by 100?",
+      "expected": 1000.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_CDNS/2018/page_31.pdf-1",
+      "turn_index": 2,
+      "question": "what is the product of the change by the quotient?",
+      "expected": 18770.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_BLK/2014/page_119.pdf-1",
+      "turn_index": 0,
+      "question": "what is the ratio of fair value to carrying value?",
+      "expected": 1.07513,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_BLK/2014/page_119.pdf-1",
+      "turn_index": 1,
+      "question": "what is that less 1?",
+      "expected": 0.07513,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_ETR/2008/page_355.pdf-4",
+      "turn_index": 0,
+      "question": "what was the number of gas customers in 2008?",
+      "expected": 93000.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_ETR/2008/page_355.pdf-4",
+      "turn_index": 1,
+      "question": "and what was it in 2007?",
+      "expected": 86000.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_ETR/2008/page_355.pdf-4",
+      "turn_index": 2,
+      "question": "what was, then, the change in that number over the year?",
+      "expected": 7000.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Single_ETR/2008/page_355.pdf-4",
+      "turn_index": 3,
+      "question": "and how much does this change represent in relation to the 2007 number of customers, in percentage?",
+      "expected": 0.0814,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_PM/2017/page_38.pdf",
+      "turn_index": 0,
+      "question": "what was, in millions, the operating income in 2017?",
+      "expected": 11503.0,
+      "predicted": "ERROR"
+    },
+    {
+      "record_id": "Double_PM/2017/page_38.pdf",
+      "turn_index": 1,
+      "question": "and what was it in 2016?",
+      "expected": 10815.0,
+      "predicted": "ERROR"
+    }
+  ]
+}
